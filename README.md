@@ -11,6 +11,6 @@ This ingredient provides customisable dialogs for accepting anr/or rejecting coo
 5. Reload the webserver hosting your EPrints repository.
 
 ## Advice on Configuration
-**TO BE WRITEN**
+**TO BE WRITTEN**
 
 For further advice see [Orest Bida's readme file](https://github.com/orestbida/cookieconsent/blob/master/Readme.md).
