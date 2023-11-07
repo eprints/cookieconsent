@@ -91,6 +91,13 @@ window.addEventListener('load', function(){
                                     col3: 'session',
                                     col4: 'Managing HTTPS user session',
                                     is_regex: true
+                                },
+								{
+                                    col1: '^eprints_lang',
+                                    col2: '.HOSTNAME',
+                                    col3: 'session',
+                                    col4: 'Setting default language',
+                                    is_regex: true
                                 }
 							]
                         }, {
@@ -106,14 +113,8 @@ window.addEventListener('load', function(){
                                     col1: '^_ga',       // match all cookies starting with "_ga"
                                     col2: 'google.com',
                                     col3: '2 years',
-                                    col4: 'description ...',
+                                    col4: 'Google Analytics',
                                     is_regex: true
-                                },
-                                {
-                                    col1: '_gid',
-                                    col2: 'google.com',
-                                    col3: '1 day',
-                                    col4: 'description ...',
                                 }
                             ]
                         }, {
@@ -126,7 +127,7 @@ window.addEventListener('load', function(){
                             }
                         }, {
                             title: 'More information',
-                            description: 'For any queries in relation to our policy on cookies and your choices, please <a class="cc-link" href="#yourcontactpage">contact us</a>.',
+                            description: 'For any queries in relation to our policy on cookies and your choices, please <a class="cc-link" href="/information.html">contact us</a>.',
                         }
                     ]
                 }
