@@ -13,7 +13,7 @@ This ingredient provides customisable dialogs for accepting anr/or rejecting coo
 7. Reload the webserver hosting your EPrints repository.
 
 ## Advice on Configuration
-- The "data-cookiecategory" by default can take one of theree values: "necessary", "analytics" or "targeting".
+- The "data-cookiecategory" by default can take one of three values: "necessary", "analytics" or "targeting".
 - Built-in default cookies for EPrints such as "eprint\_session", "secure\_eprint\_session" and "eprints\_lang" are invoked using Perl code so no changes are required to keep these working.  These are already described in cookieconsent\_config.js.tmpl
 - If you have used JavaScript to invoke any other cookies, which are essential to the running of your EPrints repository then the "data-cookiecategory" attribute for this script element should be set to "necessary".
 - If you are adding any JavaScript that invokes a cookie, this must be added to all page templates that require this cookie.  It must also be added after the epc:pin with ref "head".
