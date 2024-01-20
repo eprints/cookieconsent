@@ -32,6 +32,8 @@ window.addEventListener('load', function(){
 
         onAccept: function (cookie) {
             // callback triggered on the first accept/reject action, and after each page load
+			const cc_update = document.getElementById("cc-update");
+			cc_update.style.visibility = 'visible';
         },
 
         onChange: function (cookie, changed_categories) {
