@@ -1,6 +1,5 @@
 # Adds icon so that cookie consent permissions can ne changed later
-$EPrints::Plugin::Stats::EP_TRIGGER_DYNAMIC_TEMPLATE ||= 16;
-$c->add_trigger( $EPrints::Plugin::Stats::EP_TRIGGER_DYNAMIC_TEMPLATE, sub
+$c->add_trigger( EPrints::Const::EP_TRIGGER_DYNAMIC_TEMPLATE, sub
 {
         my( %args ) = @_;
 
