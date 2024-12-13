@@ -94,14 +94,20 @@ window.addEventListener('load', function(){
                                     col4: 'Managing HTTPS user session',
                                     is_regex: true
                                 },
-								{
+                                {
                                     col1: '^eprints_lang',
                                     col2: '.HOSTNAME',
                                     col3: 'session',
                                     col4: 'Setting default language',
                                     is_regex: true
+                                },
+                                {
+                                    col1: 'eprints_doc_request'
+                                    col2: 'oars.uos.ac.uk',
+                                    col3: 'session',
+                                    col4: 'Provide approved temporary access to restricted document'
                                 }
-							]
+                            ]
                         }, {
                             title: 'Performance and Analytics cookies',
                             description: 'These cookies allow the website to remember the choices you have made in the past',
